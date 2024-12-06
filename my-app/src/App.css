@@ -1,0 +1,41 @@
+/* App.css */
+.container {
+    margin-top: 50px;
+  }
+  
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+  }
+  
+  .filter-section {
+    margin-bottom: 20px;
+  }
+  
+  h5.card-title, .text-muted {
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .form-select {
+    width: 100%;
+  }
+  

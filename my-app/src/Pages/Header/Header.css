@@ -1,0 +1,26 @@
+/* Custom styles for Header */
+
+/* Logo Brand text size */
+.custom-brand {
+    font-size: 1.8rem; /* Adjust as per your requirement */
+    font-weight: bold;
+  }
+  
+  /* Navigation link text size */
+  .custom-link {
+    font-size: 1.1rem; /* Adjust to make it more readable */
+    font-weight: 500;
+    text-transform: uppercase; /* Adds some style to the links */
+  }
+  
+  /* Navigation link hover effect */
+  .custom-link:hover {
+    color: #f8f9fa !important; /* Ensures the text remains light on hover */
+  }
+  /* In your Header.css or App.css */
+.custom-cart-icon {
+    font-size: 1.5rem;
+    color: white; /* Ensure the icon is visible */
+  }
+  
+  

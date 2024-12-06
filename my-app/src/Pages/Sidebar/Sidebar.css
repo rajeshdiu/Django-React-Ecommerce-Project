@@ -1,0 +1,87 @@
+/* Sidebar Container */
+.sidebar-container {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: fixed;
+    top: 100px;  /* Adjust based on your header height */
+    left: 20px;
+    width: 280px;
+    height: calc(100vh - 100px); /* Sidebar height matches the body height, excluding the header */
+    overflow-y: auto;
+    z-index: 10;  /* Ensure the sidebar stays above content */
+  }
+  
+  /* Body Content */
+  .body-content {
+    padding-left: 320px;  /* Add padding to the body to make space for the fixed sidebar */
+    margin-top: 20px;
+    transition: padding-left 0.3s ease;
+  }
+  
+  /* Adjust the products display section */
+  .product-display {
+    margin-top: 20px;
+  }
+  
+  /* Make sure the content doesn't overlap */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Sidebar header */
+  .sidebar-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-header h5 {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Filter Section */
+  .filter-section {
+    margin-bottom: 15px;
+  }
+  
+  .filter-section h6 {
+    font-weight: bold;
+    color: #495057;
+    margin-bottom: 5px;
+  }
+  
+  /* Select Input */
+  .form-select {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .filter-section select {
+    width: 100%;
+  }
+  
+  /* Hover Effects for the Sidebar */
+  .sidebar-container:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sidebar-container .form-select {
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar-container .form-select:hover {
+    background-color: #f1f1f1;
+  }
+  
